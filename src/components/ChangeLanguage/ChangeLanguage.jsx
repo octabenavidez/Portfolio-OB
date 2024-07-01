@@ -11,7 +11,7 @@ export default function ChangeLanguage() {
   };
 
   return (
-    <div className="relative mx-auto mb-2 h-12 w-72 gap-1 md:absolute md:inset-auto md:right-1 md:top-8 md:mx-6">
+    <div className="relative mx-auto mb-2 mt-5 h-12 w-72 gap-1 md:absolute md:inset-auto md:right-1 md:top-8 md:mx-6">
       <motion.select
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

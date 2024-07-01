@@ -22,7 +22,7 @@ export default function Hero() {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.2 }}
       id="hero"
-      className="my-5 flex h-[100dvh] min-h-[500px] flex-col items-center justify-center gap-5 text-center md:flex-row-reverse md:justify-evenly"
+      className="flex h-[100dvh] min-h-[500px] flex-col items-center justify-center gap-5 text-center md:flex-row-reverse md:justify-evenly"
     >
       <ChangeLanguage />
       <div className="relative">
