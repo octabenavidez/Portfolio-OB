@@ -7,6 +7,7 @@ import SocialMedia from "./SocialMedia";
 import { SOCIAL_ICONS, SOCIAL_MEDIA } from "../../utils/data";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -23,6 +24,7 @@ export default function Hero() {
       id="hero"
       className="flex h-[100dvh] min-h-[500px] flex-col items-center justify-center gap-5 text-center md:flex-row-reverse md:justify-evenly"
     >
+      <ChangeLanguage />
       <div className="relative">
         <motion.img
           className="max-w-52 md:w-[400px] md:max-w-[400px]"
