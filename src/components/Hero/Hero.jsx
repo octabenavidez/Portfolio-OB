@@ -30,14 +30,17 @@ export default function Hero() {
           className="max-w-52 md:w-[400px] md:max-w-[400px]"
           src={heroImg}
           alt={t("alt.profileImg")}
-          initial={{ y: -5 }} // Posición inicial
-          animate={{ y: 5 }} // Posición final
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            repeatType: "reverse",
-            ease: "easeInOut",
+          initial={{ y: 0 }} // Posición inicial
+          whileInView={{
+            y: [0, -5, 5, 0], // Array de valores para la animación
           }}
+          transition={{
+            duration: 4,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatType: "loop",
+          }}
+          viewport={{ once: false, amount: "some" }}
         />
 
         <img

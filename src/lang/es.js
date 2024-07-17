@@ -27,6 +27,8 @@ export default {
       thanksTomas: "Realización de modificaciones a portafolio personal",
       bienesRaices: "Aplicación prototipo para inmobiliaria",
       peluqueria: "Aplicación prototipo para peluquería",
+      loopStudios: "Aplicación prototipo basado en realidad virtual",
+      shortly: "Aplicación prototipo acortador de URL",
     },
   },
   skills: {

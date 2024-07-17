@@ -27,6 +27,8 @@ export default {
       thanksTomas: "Making modifications to personal portfolio",
       bienesRaices: "Real Estate prototype application",
       peluqueria: "Hair salon prototype application",
+      loopStudios: "Virtual reality prototype application",
+      shortly: "URL Shortener prototype application",
     },
   },
   skills: {

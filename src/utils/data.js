@@ -5,6 +5,8 @@ import blogCafeImage from "../assets/blogcafe.png";
 import thanksTomasImage from "../assets/thanksthomas.png";
 import peluqueriaImage from "../assets/peluqueria.png";
 import bienesRaicesImage from "../assets/bienesraices.png";
+import loopStudiosImage from "../assets/loopstudios.png";
+import shortlyImage from "../assets/shortly.png";
 
 import linkedinLight from "../assets/linkedin-light.svg";
 import linkedinDark from "../assets/linkedin-dark.svg";
@@ -44,7 +46,7 @@ export const OTHER_PROJECTS = [
     src: thanksTomasImage,
   },
   {
-    link: "https://automapcba.com/",
+    link: "http://zujyayo.sao.dom.my.id/",
     description: "bienesRaices",
     src: bienesRaicesImage,
   },
@@ -52,6 +54,16 @@ export const OTHER_PROJECTS = [
     link: "https://automapcba.com/",
     description: "peluqueria",
     src: peluqueriaImage,
+  },
+  {
+    link: "https://octabenavidez.github.io/Loop-Studios/",
+    description: "loopStudios",
+    src: loopStudiosImage,
+  },
+  {
+    link: "https://octabenavidez.github.io/Shortly/",
+    description: "shortly",
+    src: shortlyImage,
   },
 ];
 
@@ -91,11 +103,11 @@ export const INPUTS = [
 export const SOCIAL_MEDIA = [
   {
     name: "github",
-    link: "https://github.com",
+    link: "https://github.com/octabenavidez",
   },
   {
     name: "linkedin",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/octabenavidez/",
   },
 ];
 
