@@ -3,7 +3,7 @@ import supremeImage from "../assets/icono-supreme.webp";
 import automapImage from "../assets/icono-automap.png";
 import blogCafeImage from "../assets/blogcafe.png";
 import thanksTomasImage from "../assets/thanksthomas.png";
-import peluqueriaImage from "../assets/peluqueria.png";
+// import peluqueriaImage from "../assets/peluqueria.png";
 import bienesRaicesImage from "../assets/bienesraices.png";
 import loopStudiosImage from "../assets/loopstudios.png";
 import shortlyImage from "../assets/shortly.png";
@@ -50,11 +50,11 @@ export const OTHER_PROJECTS = [
     description: "bienesRaices",
     src: bienesRaicesImage,
   },
-  {
-    link: "https://automapcba.com/",
-    description: "peluqueria",
-    src: peluqueriaImage,
-  },
+  // {
+  //   link: "https://automapcba.com/",
+  //   description: "peluqueria",
+  //   src: peluqueriaImage,
+  // },
   {
     link: "https://octabenavidez.github.io/Loop-Studios/",
     description: "loopStudios",
