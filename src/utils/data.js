@@ -70,7 +70,7 @@ export const OTHER_PROJECTS = [
 export const SKILLS = [
   "HTML",
   "CSS",
-  "JavaScript",
+  "JavaScriPT",
   "React",
   "Bootstrap",
   "Tailwind",
