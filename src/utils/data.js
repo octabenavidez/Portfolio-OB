@@ -46,7 +46,7 @@ export const OTHER_PROJECTS = [
     src: thanksTomasImage,
   },
   {
-    link: "http://zujyayo.sao.dom.my.id/",
+    link: "https://ob-bienesraices.sao.dom.my.id/",
     description: "bienesRaices",
     src: bienesRaicesImage,
   },
