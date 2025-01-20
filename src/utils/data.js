@@ -22,7 +22,7 @@ export const PROJECTS = [
   },
   {
     name: "Supreme Vape",
-    link: "https://supremevape.shop/",
+    link: "https://supremevape.site/",
     description: "supremeVape",
     src: supremeImage,
   },
